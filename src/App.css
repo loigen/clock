@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.length-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.controls button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+#break-length, #session-length {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+#timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timer-label {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#time-left {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#start_stop, #reset {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#start_stop:hover, #reset:hover {
+  background-color: #218838;
+}
